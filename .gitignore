@@ -1,3 +1,4 @@
 package-lock.json
 server.log
 greetings.txt
+node_modules
