@@ -14,9 +14,9 @@ app.use(express.static(__dirname + '/views'))
 //the following code is executed and next() command
 
 
-app.use((req, res) =>{
-  res.render('maintenance.hbs')
-});
+// app.use((req, res) =>{
+//   res.render('maintenance.hbs')
+// });
 
 app.use((req, res, next) =>{
   var now = new Date().toString();
